@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Search Medicinal Plants</h2>
+
+<div class="search-bg">
+  <div class="search-container">
+    <h2>Find Medicinal Plants for Disease</h2>
+    <form method="POST" class="search-form">
+      <input type="text" name="disease" placeholder="Enter disease..." required>
+      <button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+{% if results %}
+<div class="grid">
+    {% for plant in results %}
+   <div class="card">
+    <h3>{{ plant.plant_name }}</h3>
+    <div class="local">Local Name: {{ plant.local_name }}</div>
+
+    <span class="label">Diseases Cured</span>
+    <p>{{ plant.disease }}</p>
+
+    <span class="label">How to Use</span>
+    <p>{{ plant.how_to_use }}</p>
+
+    <div class="actions">
+        <a href="/plant/{{ plant.id }}" class="details-btn">View Details</a>
+        <a href="/favorite/{{ plant.id }}" class="save-btn">❤️Save</a>
+    </div>
+</div>
+    {% endfor %}
+</div>
+
+
+{% elif disease %}
+<p>No plants found for "{{ disease }}"</p>
+{% endif %}
+
+{% endblock %}
+

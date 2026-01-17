@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AyurVeda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">🌿 AyurVeda</div>
+    <nav>
+        <a href="/">Home</a>
+
+        {% if session.get("user") %}
+            <a href="/search">Search</a>
+            <a href="{{ url_for('seasons') }}">Seasons</a>
+            <a href="/favorites">My Remedies</a>
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('chatbot') }}">Chat with ME</a>
+
+            <a href="/logout">Logout</a>
+        {% else %}
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+        {% endif %}
+    </nav>
+</header>
+
+<main class="container">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+    Natural Healing with Medicinal Plants 🌿
+</footer>
+
+</body>
+</html>

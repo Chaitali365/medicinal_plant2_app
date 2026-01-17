@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>{{ plant.plant_name }}</h2>
+
+<p><b>Local Name:</b> {{ plant.local_name }}</p>
+<p><b>Diseases Cured:</b> {{ plant.disease }}</p>
+<p><b>How to Use:</b></p>
+<p>{{ plant.how_to_use }}</p>
+
+<a href="/favorite/{{ plant.id }}">❤️ Save to My Remedies</a>
+
+{% endblock %}

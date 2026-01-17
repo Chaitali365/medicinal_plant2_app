@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- HERO SECTION -->
+<section class="hero-bg">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1 class="fade-in">Healing Through Ayurveda 🌿</h1>
+        <p class="fade-in delay-1">
+            Discover India’s ancient wisdom of medicinal plants to
+            naturally manage common health problems.
+        </p>
+
+        <a href="/login" class="hero-btn fade-in delay-2">
+            Get Started
+        </a>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section">
+    <div class="feature-card slide-up">
+        <img src="{{ url_for('static', filename='images/natural-remedy.png') }}" 
+             alt="Natural Remedies" class="feature-img">
+        <h3>🌱 Natural Remedies</h3>
+        <p>Plant-based solutions with minimal side effects.</p>
+    </div>
+
+
+    <div class="feature-card slide-up delay-2">
+        <img src="{{ url_for('static', filename='images/smart-search.png') }}" 
+             alt="Smart Search" class="feature-img">
+        <h3>🔍 Smart Search</h3>
+        <p>Find plants for diseases quickly after login.</p>
+    </div>
+
+    <div class="feature-card slide-up delay-1">
+        <img src="{{ url_for('static', filename='images/traditional-knowledge.png') }}" 
+             alt="Traditional Knowledge" class="feature-img">
+        <h3>📖 Traditional Knowledge</h3>
+        <p>Based on authentic Ayurvedic medicinal plants.</p>
+    </div>
+
+    
+</section>
+
+
+<!-- ABOUT -->
+<section class="about-section">
+    <h2>Why Ayurveda?</h2>
+    <p>
+        Ayurveda focuses on balancing the body naturally.
+        Small ailments like cold, cough, digestion issues,
+        skin problems and headaches can often be managed
+        using medicinal plants.
+    </p>
+</section>
+
+<!-- MEDICAL DISCLAIMER -->
+<section class="disclaimer">
+    ⚠️ <strong>Medical Disclaimer:</strong><br>
+    This platform is for <b>educational purposes only</b>.
+    Information provided here is not a substitute for
+    professional medical advice, diagnosis, or treatment.
+    Always consult a qualified healthcare professional
+    before using any medicinal plant.
+</section>
+
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="season-container">
+    <h2>🌿 Seasonal Medicinal Plants</h2>
+
+    <form method="POST" class="season-form">
+        <select name="season" required>
+            <option value="">-- Select Season --</option>
+            {% for season in seasons %}
+                <option value="{{ season }}" {% if season == selected_season %}selected{% endif %}>
+                    {{ season }}
+                </option>
+            {% endfor %}
+        </select>
+        <button type="submit">Filter</button>
+    </form>
+
+    {% if plants %}
+        <div class="plant-grid">
+            {% for plant in plants %}
+                <div class="plant-card">
+                    <h3>{{ plant.plant_name }}</h3>
+                    <p><strong>Season:</strong> {{ plant.season }}</p>
+                    {% if plant.description %}
+                        <p>{{ plant.description }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    {% elif selected_season %}
+        <p class="no-data">No plants found for this season.</p>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="chat-container">
+    <h2 class="section-title">🌿 Ayurveda Chatbot</h2>
+
+    <div id="messages" class="chat-card">
+        <div class="bot-msg">
+            Ask me 🌱
+        </div>
+    </div>
+
+    <div class="chat-input">
+      <input id="msg" placeholder="Type your plant name..." />
+      <button type="button" onclick="sendMsg()">Send</button>
+      <button id="speak-btn">Speak Response</button>
+   </div>
+
+</div>
+
+
+
+<script>
+function sendMsg(){
+    let input = document.getElementById("msg");
+    let text = input.value.trim();
+    if(!text) return;
+
+    // Display user's message
+    let box = document.getElementById("messages");
+    box.innerHTML += `<div class="user-msg">${text}</div>`;
+
+    fetch("/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/x-www-form-urlencoded"},
+        body: "msg=" + encodeURIComponent(text)
+    })
+    .then(r => r.text())
+    .then(reply => {
+        box.innerHTML += `<div class="bot-msg">${reply}</div>`;
+        box.scrollTop = box.scrollHeight;
+    });
+
+    input.value = "";
+}
+
+// Speak button functionality
+document.getElementById("speak-btn").addEventListener("click", function(){
+   // Stop any previous speech
+    window.speechSynthesis.cancel();
+
+    const box = document.getElementById("messages");
+    const botMessages = box.querySelectorAll(".bot-msg");
+    if(botMessages.length === 0) return;
+
+    // Get the most recent bot message
+    const latestMsg = botMessages[botMessages.length - 1];
+    let textToSpeak = latestMsg.innerText || latestMsg.textContent;
+
+    // Speak the latest message
+    let utterance = new SpeechSynthesisUtterance(textToSpeak);
+    window.speechSynthesis.speak(utterance);
+}
+
+
+);
+
+// Allow Enter key to send message
+document.getElementById("msg").addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+        e.preventDefault();
+        sendMsg();
+    }
+});
+</script>
+
+
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>My Saved Remedies</h2>
+
+{% if plants %}
+    <div class="favorites-grid">
+        {% for plant in plants %}
+            <div class="card fade-in">
+                <h3>{{ plant.plant_name }}</h3>
+
+                {% if plant.local_name %}
+                <p><b>Local Name:</b> {{ plant.local_name }}</p>
+                {% endif %}
+
+                <p>
+                    <b>Disease Treated:</b><br>
+                    {{ plant.disease }}
+                </p>
+
+                <p>
+                    <b>How to Use:</b><br>
+                    {{ plant.how_to_use }}
+                </p>
+            </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <div class="no-favorites">
+        No saved remedies yet.<br>
+        Start exploring medicinal plants and save your favorites 🌿
+    </div>
+{% endif %}
+
+{% endblock %}
