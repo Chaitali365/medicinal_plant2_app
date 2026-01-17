@@ -1,0 +1,139 @@
+plant_name,disease,how_to_use,local_name
+Neem,Diabetes,Neem leaf juice taken daily in morning,Azadirachta indica
+Jamun,Diabetes,Jamun seed powder taken with warm water,Syzygium cumini
+Bitter Gourd,Diabetes,Drink fresh karela juice on empty stomach,Momordica charantia
+Tulsi,Cold,Tulsi leaf tea taken twice daily,Holy Basil
+Ginger,Cold,Ginger tea with honey reduces cold symptoms,Adrak
+Peppermint,Cold,Peppermint steam inhalation clears nasal blockage,Pudina
+Aloe Vera,Skin Burns,Apply fresh aloe vera gel directly,Ghritkumari
+Turmeric,Skin Burns,Apply turmeric paste mixed with coconut oil,Haldi
+Clove,Toothache,Place clove oil on affected tooth,Laung
+Garlic,Toothache,Crushed garlic applied on tooth reduces pain,Lahsun
+Ashwagandha,Stress,Ashwagandha powder taken with milk at night,Withania somnifera
+Brahmi,Stress,Brahmi juice improves mental calmness,Bacopa monnieri
+Arjuna,Heart Disease,Arjuna bark powder strengthens heart muscles,Terminalia arjuna
+Garlic,Heart Disease,Garlic improves blood circulation,Allium sativum
+Vasaka,Cough,Boil leaves in water and drink the decoction,Adhatoda vasica
+Babul,Bleeding Gums,Gargle with bark decoction daily,Acacia arabica
+Coriander,Indigestion,Drink coriander seed powder with warm water,Dhania
+Kalmegh,Diarrhea,Take fresh leaf juice once daily,Andrographis paniculata
+Punarnava,Kidney Health,Whole plant juice taken twice daily,Boerhaavia diffusa
+Shatavari,Lactation,Take root powder with milk at night,Asparagus racemosus
+Bael,Dysentery,Eat dry fruit pulp with water,Aegle marmelos
+Chitrak,Arthritis,Apply root paste on joints for pain relief,Plumbago zeylanica
+Mandukparni,Memory Loss,Drink fresh leaf juice in the morning,Centella asiatica
+Palasha,Worms,Take seed powder with honey,Butea monosperma
+Amaltas,Constipation,Eat fruit pulp as a mild laxative,Cassia fistula
+Ashok,Menstrual Disorders,Bark decoction taken during periods,Saraca indica
+Guggulu,Heart Disease,Resin powder taken with warm water,Commiphora mukul
+Senna,Constipation,Leaf powder taken with warm water at night,Cassia angustifolia
+Amla,Acidity,Fresh fruit juice taken daily morning,Emblica officinalis
+Giloy,Fever,Boil stem pieces in water and drink,Tinospora cordifolia
+Ajwain,Stomach Ache,Chew seeds with a pinch of salt and water,Trachyspermum ammi
+Patharchatta,Kidney Stones,Eat fresh leaves raw daily morning,Kalanchoe pinnata
+Parijat,Joint Pain,Drink leaf decoction twice daily,Nyctanthes arbor-tristis
+Aprajita,Brain Health,Blue flower tea improves cognitive function,Clitoria ternatea
+Manjistha,Skin Diseases,Apply root powder paste on affected area,Rubia cordifolia
+Mulethi,Sore Throat,Chew small pieces of root for relief,Glycyrrhiza glabra
+Bhringraj,Hair Loss,Apply leaf juice or oil infused with it,Eclipta alba
+Harad,Digestion,Take fruit powder with warm water,Terminalia chebula
+Baheda,Cough,Mix fruit powder with honey and eat,Terminalia bellirica
+Safed Musli,Weakness,Take root powder with milk,Chlorophytum borivilianum
+Gokhru,Urinary Infection,Boil fruit in water and drink daily,Tribulus terrestris
+Shankhpushpi,Memory Loss,Take whole plant juice with honey,Convolvulus pluricaulis
+Kutki,Liver Disorders,Take root powder with lukewarm water,Picrorhiza kurroa
+Pippali,Asthma,Take fruit powder with honey daily,Piper longum
+Chirata,Fever,Drink decoction of the whole plant,Swertia chirayita
+Nagarmotha,Fever,Drink tuber decoction for cooling effect,Cyperus rotundus
+Kachnar,Thyroid,Bark decoction taken once daily,Bauhinia variegata
+Vidarikand,Rejuvenation,Take tuber powder with milk,Pueraria tuberosa
+Makoi,Liver Disease,Take fresh fruit juice twice daily,Solanum nigrum
+Kantakari,Cough,Boil whole plant and drink decoction,Solanum xanthocarpum
+Karanja,Skin Disease,Apply seed oil on affected areas,Pongamia pinnata
+Malkangni,Memory Loss,Take 2-3 drops of seed oil with milk,Celastrus paniculatus
+Atibala,Weakness,Take root powder with milk daily,Abutilon indicum
+Kaunch Beej,Nervous Disorders,Take seed powder with honey,Mucuna pruriens
+Varun,Kidney Stones,Drink bark decoction twice daily,Crateva nurvala
+Tejpatta,Diabetes,Add leaves to tea or cooking,Cinnamomum tamala
+Dalchini,Cold,Take bark powder with honey,Cinnamomum zeylanicum
+Jaiphal,Insomnia,Mix a pinch of powder in warm milk,Myristica fragrans
+Heeng,Bloating,Dissolve in warm water and drink,Ferula assa-foetida
+Methi,Diabetes,Soak seeds overnight and eat in morning,Trigonella foenum-graecum
+Saunf,Digestion,Chew seeds after meals,Foeniculum vulgare
+Karipatta,Anemia,Consume fresh leaves in food,Murraya koenigii
+Sadabahar,Diabetes,Chew 2-3 fresh flowers daily,Catharanthus roseus
+Anar,Anemia,Drink fresh pomegranate juice daily,Punica granatum
+Lemon,Vitamin C Deficiency,Drink fresh lemon juice in water daily,Nimbu
+Papaya,Low Platelet Count,Drink juice of fresh papaya leaves,Papita
+Moringa,Malnutrition,Add moringa leaf powder to soups or dal,Sahjan
+Brahmi Powder,Anxiety,Take with warm water or milk,Brahmi churna
+Arjuna Bark,Heart Palpitation,Drink bark tea with milk,Arjuna chhal
+Guggul Resin,High Triglycerides,Take purified resin with warm water,Guggul
+Sarpgandha,Hypertension,Root powder with water,Rauwolfia serpentina
+Bhumyamalaki,Hepatitis,Whole plant juice,Phyllanthus niruri
+Pashanbheda,Kidney Stones,Decoction of roots,Bergenia ligulata
+Kutaja,IBS,Bark powder with buttermilk,Holarrhena antidysenterica
+Kapikacchu,Parkinson's,Seed powder with milk,Mucuna pruriens
+Katuki,Fatty liver,Root powder,Picrorhiza kurroa
+Jatamansi,Hypertension,Root powder,Nardostachys jatamansi
+Rakta Chandan,Acne,Heartwood paste application,Pterocarpus santalinus
+Priyangu,Body odor,Use flower powder for dusting,Callicarpa macrophylla
+Aguru,Asthma,Inhale bark smoke,Aquilaria agallocha
+Shallaki,Osteoarthritis,Take resin powder with water,Boswellia serrata
+Sarala,Skin disease,Apply resin paste,Pinus roxburghii
+Taleesapatra,Cough,Take leaf powder with honey,Abies webbiana
+Latakasturi,Bad breath,Chew on seeds,Abelmoschus moschatus
+Katphala,Sore throat,Take bark powder,Myrica nagi
+Kankola,Urinary infection,Take fruit powder,Piper cubeba
+Tukakshiri,Chronic Cough,Bamboo manna powder with honey,Bambusa arundinacea
+Darbha,Kidney stones,Drink root decoction,Desmostachya bipinnata
+Durva,Nosebleeds,Put 2 drops of fresh juice in each nostril,Cynodon dactylon
+Shalmali,Dysentery,Take flower powder with honey,Bombax ceiba
+Rohira,Splenomegaly,Drink bark decoction,Tecomella undulata
+Shami,Respiratory issues,Inhale smoke of dried leaves,Prosopis cineraria
+Karira,Joint inflammation,Apply fruit paste locally,Capparis decidua
+Pilu,Pyorrhea,Use tender twig for brushing teeth,Salvadora persica
+Vikankata,Fever,Take leaf decoction,Flacourtia indica
+Tintidika,Anorexia,Mix fruit pulp with water and cumin,Rhus parviflora
+Kapittha,Hiccups,Take fruit pulp with honey,Limonia acidissima
+Ankola,Dog bite,Apply root bark paste on the wound,Alangium salvifolium
+Karanja,Skin Scabies,Apply seed oil on affected area,Pongamia pinnata
+Vatada,General Weakness,Eat 5-7 soaked almonds daily,Almond / Badam
+Akshota,Cholesterol,Consume 2-3 walnut kernels daily,Walnut / Akhrot
+Karkatshringi,Whooping Cough,Take powder of galls with honey,Pistacia integerrima
+Tumburu,Tooth Sensitivity,Use fruit powder for cleaning teeth,Zanthoxylum armatum
+Kovidara,Goitre,Drink bark decoction,Bauhinia variegata
+Vata,Diarrhea,Take leaf bud paste with buttermilk,Banyan / Bargad
+Ashvattha,Eczema,Apply bark paste locally,Peepal / Ficus religiosa
+Kushmanda,Mental Fatigue,Drink fresh fruit juice with sugar,Ash Gourd / Petha
+Draksha,Acid Reflux,Eat soaked black raisins,Grapes / Munakka
+Ushira,Excessive Thirst,Drink water infused with root fibers,Vetiver / Khus
+Hribera,Digestive Fever,Take root decoction,Coleus Vettiveroides
+Chandana,Burning Sensation,Apply sandalwood paste on skin,Sandalwood
+Patola,Skin Diseases,Consume leaf decoction,Pointed Gourd
+Vatshnabha,High Fever,Purified root powder in trace amounts,Aconitum ferox
+Dhustura,Dandruff,Apply leaf juice mixed with oil to scalp,Datura / Dhatura
+Jayapala,Severe Constipation,Diluted purified seed oil,Croton tiglium
+Bhanga,Acute Pain,Purified leaf powder (under supervision),Cannabis sativa
+Ahifena,Chronic Diarrhea,Purified extract in minute doses,Opium Poppy
+Vacha,Speech Disorders,Lick root powder mixed with honey,Sweet Flag
+Putranjiva,Infertility,Seed powder with milk,Putranjiva roxburghii
+Shilajit,Anti-aging,Consume small amount with warm milk,Mineral Pitch
+Madanaphala,Detoxification,Fruit powder for therapeutic emesis,Randia dumetorum
+Indrayava,Fever,Seed powder with water,Holarrhena antidysenterica seeds
+Kebuka,Diabetes,Rhizome juice in the morning,Costus speciosus
+Murva,Skin ailments,Root decoction on skin,Marsdenia tenacissima
+Dronapushpi,Sinusitis,Leaf juice drops in nostrils,Leucas aspera
+Aparajita,Memory enhancement,Butterfly pea flower tea,Clitoria ternatea
+Brahmi-varchala,Eye health,Fresh plant juice as eye drops,Marsilea quadrifolia
+Somlata,Fatigue,Decoction of dried stem,Ephedra gerardiana
+Japa,Hair thinning,Apply leaf and flower paste to scalp,Hibiscus rosa-sinensis
+Kadali,High blood pressure,Consume fresh stem juice,Musa paradisiaca
+Kadamba,Wound healing,Apply leaf paste locally,Anthocephalus cadamba
+Kapitana,Skin disease,Apply bark decoction locally,Thespesia populnea
+Karamarda,Loss of appetite,Eat fresh or pickled fruit,Carissa carandas
+Karkotaki,Fever,Take decoction of the whole plant,Momordica dioica
+Kasha,Urinary calculi,Take root decoction,Saccharum spontaneum
+Kovidara,Tonsillitis,Gargle with bark decoction,Bauhinia variegata
+Kumbhi,Skin ulcers,Apply bark paste locally,Careya arborea
+Madana,Therapeutic vomiting,Fruit powder for emesis (detox),Catunaregam spinosa
