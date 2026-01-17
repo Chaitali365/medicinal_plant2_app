@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="search-section">
+    <h2>🌿 About Medicinal Plant</h2>
+
+    <!-- EXISTING SEARCH -->
+    <form method="POST" class="search-form">
+        <input type="text" name="plant_name" placeholder="Enter plant name..." required>
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+{% if plant %}
+<div class="search-results">
+    <div class="search-card">
+        <h3>{{ plant.plant_name }}</h3>
+
+        {% for key, value in plant.items() %}
+            {% if key != 'plant_name' and value %}
+                <span class="label">{{ key.replace('_',' ').title() }}</span>
+                <p>{{ value }}</p>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% elif query %}
+<p class="no-data">No plant found.</p>
+{% endif %}
+<div class="section-divider">
+    <span>☘️</span>
+</div>
+
+
+<!-- COMPARE SECTION -->
+<div class="search-section">
+    <h2>🌿 Compare Plants</h2>
+
+    <form method="POST" class="season-form">
+        <input type="hidden" name="compare" value="1">
+
+        <select name="plant1" required>
+            <option value="">Select First Plant</option>
+            {% for p in plant_names %}
+                <option value="{{ p }}">{{ p }}</option>
+            {% endfor %}
+        </select>
+
+        <select name="plant2" required>
+            <option value="">Select Second Plant</option>
+            {% for p in plant_names %}
+                <option value="{{ p }}">{{ p }}</option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Compare</button>
+    </form>
+</div>
+
+{% if plant1 and plant2 %}
+<div class="search-results">
+
+    <div class="search-card">
+        <h3>{{ plant1.plant_name }}</h3>
+        
+
+        <span class="label">Diseases</span>
+        <p>{{ plant1.disease }}</p>
+
+        <span class="label">Season</span>
+        <p>{{ plant1.season }}</p>
+
+        <span class="label">Dosage</span>
+        <p>{{ plant1.how_to_use }}</p>
+    </div>
+
+    <div class="search-card">
+        <h3>{{ plant2.plant_name }}</h3>
+        
+
+        <span class="label">Diseases</span>
+        <p>{{ plant2.disease }}</p>
+
+        <span class="label">Season</span>
+        <p>{{ plant2.season }}</p>
+
+        <span class="label">Dosage</span>
+        <p>{{ plant2.how_to_use }}</p>
+    </div>
+
+</div>
+{% endif %}
+
+{% endblock %}
