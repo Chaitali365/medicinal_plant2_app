@@ -1,1 +1,2 @@
-# medicinal_plant2_app
+# medicinal_plant_app
+fully working application 
